@@ -65,6 +65,9 @@ button.navbar-toggler {
   top: -45px;
   left: -129px;
 }
+br{
+  display: none;
+}
 }
 
 
