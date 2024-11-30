@@ -1,4 +1,3 @@
-
 /* -------1920--------- */
 
 @media only screen and (min-width:1920px) {
@@ -7,12 +6,22 @@
     width: 1903px;
     margin: auto;
   }
+
   .srcpaddhero h1 {
     font-size: 51px;
-}
-.whybgsec {
-  padding: 210px 20px;
-}
+  }
+
+  .whybgsec {
+    padding: 210px 20px;
+  }
+
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
+    min-width: 1400px !important;
+  }
 }
 
 
@@ -21,188 +30,480 @@
 @media only screen and (max-width:1024px) {
   .offcanvas-header {
     background: #0B1A48;
+  }
+
+  button.navbar-toggler {
+    background: #0B1A48;
+    height: 55px;
+  }
+
+  .srcpaddhero h1 {
+    font-size: 23px;
+  }
+
+  .secwhytext h3 {
+    font-size: 32px;
+  }
+
+  .navbar-nav.justify-content-center.align-items-center.flex-grow-1.pe-3 {
+    display: flex;
+    align-items: flex-start !important;
+  }
+
+  .headermenusec {
+    margin-left: 0px;
+    padding-top: 20px;
+  }
+
+  .headmenu2 {
+    padding: 9px 0px;
+  }
+
+  .secfootrbg {
+    padding: 40px 30px;
+  }
+
+  .seccallfooter i {
+    font-size: 25px;
+  }
+
+  .whybgsec {
+    padding: 60px 20px;
+  }
+
+  .sectestemotittle p {
+    font-size: 15px;
+  }
+
+  .footer-callbg p {
+    font-size: 11px;
+  }
+
+  .footer-callbg p a {
+    font-size: 19px;
+  }
+
+  .secboxleftimg::after {
+    top: -45px;
+    left: -129px;
+  }
+
+  br {
+    display: none;
+  }
+
+  .form-group.has-search {
+    display: none;
+  }
+  .secpaddmain {
+    padding: 50px 10px 70px 10px;
 }
-button.navbar-toggler {
-  background: #0B1A48;
-  height: 55px;
 }
-.srcpaddhero h1 {
-  font-size: 23px;
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:999px) {
+  .conttext {
+    padding-top: 12px;
+    padding-bottom: 20px;
+    color: #000 !important;
+  }
+
+  .sec-tra-p {
+    line-height: normal;
+  }
+
+  .sec-aboy-padd {
+    padding: 40px 0px;
+  }
+
+  .secconbox {
+    border: 1px solid #0B1A48;
+    margin-bottom: 20px !important;
+    padding: 10px;
+    border-radius: 20px;
+    width: 80%;
+    margin: auto;
+  }
+  .cpysecfle {
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .secpoli {
+    text-align: center;
 }
-.secwhytext h3 {
-  font-size: 32px;
+.sec-get-bg {
+  padding: 40px;
 }
-.navbar-nav.justify-content-center.align-items-center.flex-grow-1.pe-3 {
-  display: flex;
-  align-items: flex-start !important;
+.secpfoot {
+  padding-left: 0px;
+  padding-bottom: 20px;
 }
-.headermenusec {
-  margin-left: 0px;
-  padding-top: 20px;
+.footertitt {
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-top: 30px;
 }
-.headmenu2 {
-  padding: 9px 0px;
+.secwww {
+  width: 15% !important;
 }
-.secfootrbg {
-  padding: 40px 30px;
+.secwww2 {
+  width: 85%;
+  padding: 0px;
 }
 .seccallfooter i {
-  font-size: 25px;
-}
-.whybgsec {
-  padding: 60px 20px;
-}
-.sectestemotittle p {
-  font-size: 15px;
+  font-size: 60px;
 }
 .footer-callbg p {
-  font-size: 11px;
+  font-size: 22px;
 }
 .footer-callbg p a {
-  font-size: 19px;
+  font-size: 34px;
 }
-.secboxleftimg::after {
-  top: -45px;
-  left: -129px;
+.sspp {
+  padding-top: 30px;
 }
-br{
+.secfootadd {
+  padding-top: 0px;
+}
+.head-sec-bgg2 {
+  padding: 0px 0px 86px 0px;
+  margin-top: 0px !important;
+}
+.sec-wee-h {
+  padding-top: 40px !important;
+}
+.sec-bed-wh::before {
+  width: 111px;
+  height: 104px;
+  border-radius: 0px 0px 20px 0px;
+}
+.secddff {
+  display: flex;
+  flex-direction: column-reverse;
+}
+a.desksec {
   display: none;
 }
+a.mobilesec {
+  display: block;
+  padding-bottom: 20px;
 }
+.sec-padd {
+  padding: 50px 10px;
+}
+.sec-space-left-right {
+  padding: 0px 10px;
+}
+.secboxbg {
+  padding: 10px 30px 10px 143px;
+  border-radius: 16px;
+}
+.srcpaddhero h1 {
+  font-size: 36px;
+}
+.srcpaddhero2 {
+  padding: 40px 40px 40px 40px;
+  text-align: center;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media only screen and (max-width:767px) {
   .sectestemotittle p {
     font-size: 18px;
 
-}
-.footer-callbg p a {
-  font-size: 25px;
-}
-.seccallfooter i {
-  font-size: 40px ;
-}
-.footer-callbg p {
-  font-size: 16px;
-}
+  }
+
+  .footer-callbg p a {
+    font-size: 25px;
+  }
+
+  .seccallfooter i {
+    font-size: 40px;
+  }
+
+  .footer-callbg p {
+    font-size: 16px;
+  }
+
   .navbar-nav.justify-content-center.align-items-center.flex-grow-1.pe-3 {
     display: flex;
     align-items: flex-start !important;
   }
+
   .headermenusec {
     margin-left: 0px;
   }
-  
+
   .offcanvas-header {
     background: #0B1A48;
-}
-button.navbar-toggler {
-  background: #0B1A48;
-  height: 55px;
-}
+  }
 
-.sec-space-left-right {
-  padding: 0px 0px;
-}
+  button.navbar-toggler {
+    background: #0B1A48;
+    height: 55px;
+  }
 
-a.navbar-brand {
-  width: 71%;
-}
-.srcpaddhero {
-  padding: 30px 10px 20px 10px;
-}
+  .sec-space-left-right {
+    padding: 0px 0px;
+  }
 
-.srcpaddhero h1 {
-  font-size: 30px;
-}
+  a.navbar-brand {
+    width: 71%;
+  }
 
-.sec-imgmarg {
-  margin: 0;
-}
+  .srcpaddhero {
+    padding: 30px 10px 20px 10px;
+  }
 
-.secboxleftimg::after{
-  display: none;
-}
+  .srcpaddhero h1 {
+    font-size: 30px;
+  }
 
-.secpaddmain {
-  padding: 60px 10px 60px 10px;
-}
+  .sec-imgmarg {
+    margin: 0;
+  }
 
-.secheaddlig H2 {
-  font-size: 36px;
-}
+  .secboxleftimg::after {
+    display: none;
+  }
 
-.secheaddlig P {
-  font-size: 14px;
-}
+  .secpaddmain {
+    padding: 60px 10px 10px 10px;
+  }
 
-.secboxbg {
-  padding: 30px 10px 30px 10px;
-  border-radius: 16px;
-  background: none;
-}
+  .secheaddlig H2 {
+    font-size: 36px;
+  }
 
-.secboxfle{
-  display: flex;
-  flex-direction: column-reverse;
-}
+  .secheaddlig P {
+    font-size: 14px;
+  }
 
-.secbribox{
-  background: rgb(255,255,255);
-  background: linear-gradient(0deg, rgba(255,255,255,1) 3%, rgba(153,223,247,1) 100%);
-}
+  .secheaddlig {
+    text-align: center;
+    padding-bottom: 0px;
+  }
 
-.whybgsec {
-  background-image: url(../images/bell-background-mobile.png);
-  padding: 50px 20px;
-}
-.secwhytext h3 {
-  font-size: 30px;
-}
-.sec-padd {
-  padding: 50px 10px;
-}
-.row.justify-content-center.pt-4 {
-  padding: 0px !important;
-}
-a.col-sm-3 img {
-  padding-top: 20px;
-}
-.sec-padd2 {
-  padding-bottom: 50px;
-}
-.secfootrbg {
-  padding: 50px 10px;
-}
-.footertitt {
-  padding-left: 0px;
-  padding-top: 30px;
-}
-.secpfoot {
-  padding-left: 0px;
-}
-.seccopy {
-  font-size: 14px;
-  text-align: center;
-}
-.cpysecfle{
-  display: flex;
-  flex-direction: column-reverse;
-}
-.secpoli {
-  text-align: center;
-  color: #000;
-  padding-bottom: 20px;
-}
-.col-lg-2.d-flex.align-items-center {
-  display: flex;
-  justify-content: center;
-}
-.secfooterlogo{
-  padding-top: 30px;
-}
-.secfooter2bg {
-  padding: 1px 10px 20px 10px;
-}
-}
+  .secboxbg {
+    padding: 30px 10px 30px 10px;
+    border-radius: 16px;
+    background: none;
+  }
 
+  .secboxfle {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .secbribox {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(0deg, rgba(255, 255, 255, 1) 3%, rgba(153, 223, 247, 1) 100%);
+  }
+
+  .whybgsec {
+    background-image: url(../images/bell-background-mobile.png);
+    padding: 50px 20px;
+  }
+
+  .secwhytext h3 {
+    font-size: 30px;
+  }
+
+  .sec-padd {
+    padding: 30px 0px;
+  }
+
+  .row.justify-content-center.pt-4 {
+    padding: 0px !important;
+  }
+
+  .conttext {
+    padding-top: 10px;
+    color: #000 !important;
+  }
+
+  a.col-sm-3 img {
+    padding-top: 20px;
+  }
+
+  .sec-padd2 {
+    padding-bottom: 50px;
+  }
+
+  .secfootrbg {
+    padding: 0px 0px;
+  }
+
+  .footertitt {
+    padding-left: 0px;
+    padding-top: 30px;
+  }
+
+  .secpfoot {
+    padding-left: 0px;
+  }
+
+  .seccopy {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .cpysecfle {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .secpoli {
+    text-align: center;
+    color: #000;
+    padding-bottom: 20px;
+  }
+
+  .col-lg-2.d-flex.align-items-center {
+    display: flex;
+    justify-content: center;
+  }
+
+  .secfooterlogo {
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+
+  .secfooter2bg {
+    padding: 1px 10px 20px 10px;
+  }
+
+  .desksec {
+    display: none;
+  }
+
+  .mobilesec {
+    display: block;
+  }
+
+  .secwww {
+    width: 20%;
+    padding: 0px;
+  }
+
+  .secwww2 {
+    width: 80%;
+    padding: 0px;
+  }
+
+  .sspp {
+    padding-top: 30px !important;
+  }
+
+  .secfootadd {
+    padding-top: 0px;
+    margin: 0;
+  }
+
+  .sectestemotittle p {
+    font-size: 15px !important;
+  }
+
+  .sepad {
+    padding: 0;
+  }
+
+  .head-sec-bgg2 {
+    background-size: cover;
+    background-position: right;
+    padding: 50px 0px 53px 0px;
+    margin-top: 0px !important;
+  }
+
+  .sec-wee-h {
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+  }
+
+  .sec-why-h {
+    font-size: 27px;
+  }
+
+  .sec-bed-wh::before {
+    width: 108px;
+    height: 106px;
+    border-radius: 0px 0px 20px 0px;
+  }
+
+  .sec-aboy-padd {
+    padding: 40px 10px;
+  }
+
+  .secpro-p {
+    font-size: 16px;
+  }
+
+  .secddff {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .sec--ord-p {
+    font-size: 16px;
+  }
+
+  .sec-tra-p {
+    font-size: 21px;
+    line-height: normal;
+  }
+
+  .secconbox {
+    border: 1px solid #0B1A48;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 20px;
+  }
+
+  .sec-get-bg {
+    padding: 40px 10px;
+  }
+
+  .sec-grt-h {
+    font-size: 35px;
+    padding-bottom: 20px;
+  }
+
+  .col-lg-6.pb-4,
+  .col-lg-12.pb-4 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .srcpaddhero2 {
+    padding: 10px 10px 30px 10px;
+    text-align: left;
+}
+}
